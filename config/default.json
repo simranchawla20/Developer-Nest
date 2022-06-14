@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb://SimranDivine:simran2002@cluster0-shard-00-00.ngh7m.mongodb.net:27017,cluster0-shard-00-01.ngh7m.mongodb.net:27017,cluster0-shard-00-02.ngh7m.mongodb.net:27017/?ssl=true&replicaSet=atlas-2n201t-shard-0&authSource=admin&retryWrites=true&w=majority",
+    "jwtSecret":"theSecretKeyOfyash"
+}
