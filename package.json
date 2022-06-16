@@ -21,6 +21,7 @@
     "express-validator": "^6.4.0",
     "gravatar": "^1.8.0",
     "jsonwebtoken": "^8.5.1",
+    "koji-react-leaderboard": "^0.0.4",
     "mongoose": "^5.9.5",
     "node-modules": "^1.0.1",
     "normalize-url": "^5.0.0"
