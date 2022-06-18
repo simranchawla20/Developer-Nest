@@ -41,7 +41,6 @@ function AdditionalSkills() {
           // })}
           {...register("message", {
             required: "Required",
-            value:3,
           })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
