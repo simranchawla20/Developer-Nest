@@ -20,7 +20,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
         </Link>
       </li>
       <li>
-        <Link to='/Resume'>Resume Builder</Link>
+        <Link to='/resume'>Resume Builder</Link>
       </li>
       <li>
         <a onClick={logout} href='/login'>

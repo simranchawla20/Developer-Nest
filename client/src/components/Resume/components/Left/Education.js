@@ -33,7 +33,9 @@ function Education() {
           name="institution"
           variant="outlined"
           defaultValue={content.education.institution}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -44,7 +46,9 @@ function Education() {
           name="city"
           variant="outlined"
           defaultValue={content.education.city}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -55,7 +59,9 @@ function Education() {
           name="major"
           variant="outlined"
           defaultValue={content.education.major}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -66,7 +72,9 @@ function Education() {
           name="gradYear"
           variant="outlined"
           defaultValue={content.education.gradYear}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -77,7 +85,9 @@ function Education() {
           name="additional"
           variant="outlined"
           defaultValue={content.education.additional}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />

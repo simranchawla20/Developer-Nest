@@ -33,11 +33,15 @@ function AdditionalSkills() {
           name="skill1"
           variant="outlined"
           defaultValue={content.additional[0]}
-          inputRef={register({
-            max: {
-              value: 3,
-              message: "error message", // <p>error message</p>
-            },
+          // inputRef={register({
+          //   max: {
+          //     value: 3,
+          //     message: "error message", // <p>error message</p>
+          //   },
+          // })}
+          {...register("message", {
+            required: "Required",
+            value:3,
           })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
@@ -49,7 +53,9 @@ function AdditionalSkills() {
           name="skill2"
           variant="outlined"
           defaultValue={content.additional[1]}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -60,7 +66,9 @@ function AdditionalSkills() {
           name="skill3"
           variant="outlined"
           defaultValue={content.additional[2]}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -71,7 +79,9 @@ function AdditionalSkills() {
           name="skill4"
           variant="outlined"
           defaultValue={content.additional[3]}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -82,7 +92,9 @@ function AdditionalSkills() {
           name="skill5"
           variant="outlined"
           defaultValue={content.additional[4]}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />

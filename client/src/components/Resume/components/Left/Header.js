@@ -31,7 +31,10 @@ function Header() {
           name="name"
           variant="outlined"
           defaultValue={content.header.name}
-          inputRef={register}
+          //inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -42,7 +45,9 @@ function Header() {
           name="address"
           variant="outlined"
           defaultValue={content.header.address}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -53,7 +58,9 @@ function Header() {
           name="city"
           variant="outlined"
           defaultValue={content.header.city}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -64,7 +71,9 @@ function Header() {
           name="state"
           variant="outlined"
           defaultValue={content.header.state}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -75,7 +84,9 @@ function Header() {
           name="zip"
           variant="outlined"
           defaultValue={content.header.zip}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -86,7 +97,9 @@ function Header() {
           name="phone"
           variant="outlined"
           defaultValue={content.header.phone}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -97,7 +110,9 @@ function Header() {
           name="email"
           variant="outlined"
           defaultValue={content.header.email}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -110,7 +125,9 @@ function Header() {
           rows={7}
           variant="outlined"
           defaultValue={content.header.summary}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           onChange={handleSubmit(onSubmit)}
           style={{
             marginTop: 20,

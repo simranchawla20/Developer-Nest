@@ -5,14 +5,20 @@ body {
     width: 98vw;
   }
   
-  /* .app {
+  .resume-app {
     display: flex;
+    justify-content: space-between;
     min-height: 100vh;
+    
+  }
+  /* .abc{
+    margin-bottom: 20px;
   } */
   
   .left {
     background-color: #fff;
-    width: 25vw;
+    width: 27vw;
+    margin-left: 0;
     box-shadow: 0 0 0.5cm #7b7d7d;
   }
   
@@ -28,7 +34,7 @@ body {
   
   .right .page {
     background: white;
-    /* display: block; */
+    display: block;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 0.5cm;

@@ -33,7 +33,9 @@ function Professional() {
           name="company1"
           variant="outlined"
           defaultValue={content.professional.company1}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -44,7 +46,9 @@ function Professional() {
           name="local1"
           variant="outlined"
           defaultValue={content.professional.local1}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -55,7 +59,9 @@ function Professional() {
           name="position1"
           variant="outlined"
           defaultValue={content.professional.position1}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -66,7 +72,9 @@ function Professional() {
           name="start1"
           variant="outlined"
           defaultValue={content.professional.start1}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -77,7 +85,9 @@ function Professional() {
           name="end1"
           variant="outlined"
           defaultValue={content.professional.end1}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -88,7 +98,9 @@ function Professional() {
           name="desc1[0]"
           variant="outlined"
           defaultValue={content.professional.desc1[0]}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -98,7 +110,9 @@ function Professional() {
           name="desc1[1]"
           variant="outlined"
           defaultValue={content.professional.desc1[1]}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -108,7 +122,9 @@ function Professional() {
           name="desc1[2]"
           variant="outlined"
           defaultValue={content.professional.desc1[2]}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{
             marginTop: 12,
@@ -128,7 +144,9 @@ function Professional() {
           name="company2"
           variant="outlined"
           defaultValue={content.professional.company2}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -139,7 +157,9 @@ function Professional() {
           name="local2"
           variant="outlined"
           defaultValue={content.professional.local2}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -150,7 +170,9 @@ function Professional() {
           name="position2"
           variant="outlined"
           defaultValue={content.professional.position2}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -161,7 +183,9 @@ function Professional() {
           name="start2"
           variant="outlined"
           defaultValue={content.professional.start2}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -172,7 +196,9 @@ function Professional() {
           name="end2"
           variant="outlined"
           defaultValue={content.professional.end2}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -183,7 +209,9 @@ function Professional() {
           name="desc2[0]"
           variant="outlined"
           defaultValue={content.professional.desc2[0]}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -193,7 +221,9 @@ function Professional() {
           name="desc2[1]"
           variant="outlined"
           defaultValue={content.professional.desc2[1]}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />
@@ -203,7 +233,9 @@ function Professional() {
           name="desc2[2]"
           variant="outlined"
           defaultValue={content.professional.desc2[2]}
-          inputRef={register}
+          {...register("message", {
+            required: "Required",
+          })}
           // onChange={handleSubmit(onSubmit)}
           style={{ marginTop: 12, marginLeft: 8, marginRight: 8 }}
         />

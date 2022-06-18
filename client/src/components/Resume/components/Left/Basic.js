@@ -6,9 +6,10 @@ import AdditionalSkills from "./AdditionalSkills";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Button from "@material-ui/core/Button";
 import myClasses from "./Left.module.css";
-import logo from "../../assets/default.png";
+import logo from "../../../../img/devNestLogo.png";
 import { ResumeContext } from "../../contexts/ResumeContext";
 import { makeStyles } from "@material-ui/core/styles";
+
 
 const useStyles = makeStyles({
   rootAdd: {
@@ -20,8 +21,8 @@ const useStyles = makeStyles({
     height: 30,
     textAlign: "center",
     fontSize: 10,
-    marginTop: 15,
-    marginRight: 20,
+    marginTop: 35,
+    marginRight: 30,
     fontWeight: 700,
   },
   rootRemove: {
@@ -34,8 +35,8 @@ const useStyles = makeStyles({
     textAlign: "center",
     minWidth: 130,
     fontSize: 10,
-    marginTop: 15,
-    marginRight: 20,
+    marginTop: 35,
+    marginRight: 30,
     fontWeight: 700,
   },
 
@@ -87,14 +88,14 @@ function Left() {
     <div className="left">
       <div className={myClasses.headerLeft}>
         <div styles={{ flexGrow: 2 }}>
-          <Link to="/" style={{ display: "inline" }}>
-            <img src={logo} alt="logo" />
+          <Link to="/resume" style={{ display: "inline" }}>
+            <img src={logo} alt="logo" height="70"/>
           </Link>
         </div>
         <div styles={{ flexGrow: 1 }}>{expData}</div>
       </div>
 
-      <div className="">
+      <div >
         <Router>
           <div className={myClasses.topLeft}>
             <Button

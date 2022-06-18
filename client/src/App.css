@@ -57,10 +57,10 @@ img {
 
 /* Utilities */
 .container {
-  max-width: 1100px;
+  max-width: 1270px;
   margin: auto;
   overflow: hidden;
-  padding: 0 2rem;
+  padding: 0;
   margin-top: 6rem;
   margin-bottom: 3rem;
 }
@@ -348,6 +348,7 @@ button {
   z-index: 1;
   width: 100%;
   top: 0;
+  margin:0;
   border-bottom: solid 1px var(--primary-color);
   opacity: 0.9;
 }
